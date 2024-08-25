@@ -1,0 +1,12 @@
+.PostHeader{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 10%;
+}
+
+.PostHeader > p{
+    float: left;
+    color: white;
+    margin-left: 5px;
+
+}

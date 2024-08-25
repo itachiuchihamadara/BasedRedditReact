@@ -1,0 +1,12 @@
+.PostBody{
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.PostBody > p{
+    color: white;
+    font-size: 20px;
+    float: left;
+    opacity: 0.5;;
+
+}
