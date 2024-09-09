@@ -10,8 +10,46 @@ function PostEnumeration() {
 
     let list = [
 
-      <div>
-        <text></text>
+    <div className='Post'>
+        <PostHeader/>
+        <PostBody/>
+        <div className='line'></div>
+      </div>,
+
+<div className='Post'>
+<PostHeader/>
+<PostBody/>
+<div className='line'></div>
+</div>,
+<div className='Post'>
+          <PostHeader/>
+          <PostBody/>
+          <div className='line'></div>
+        </div>,
+        <div className='Post'>
+        <PostHeader/>
+        <PostBody/>
+        <div className='line'></div>
+      </div>,
+<div className='Post'>
+          <PostHeader/>
+          <PostBody/>
+          <div className='line'></div>
+        </div>,
+        <div className='Post'>
+        <PostHeader/>
+        <PostBody/>
+        <div className='line'></div>
+      </div>,
+        <div className='Post'>
+        <PostHeader/>
+        <PostBody/>
+        <div className='line'></div>
+      </div>,
+        <div className='Post'>
+        <PostHeader/>
+        <PostBody/>
+        <div className='line'></div>
       </div>
     ];
 
