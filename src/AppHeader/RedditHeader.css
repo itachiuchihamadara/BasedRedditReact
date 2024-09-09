@@ -1,30 +1,43 @@
 .RedditHeader {
 
-  width: 100%;
   height: 15%;
   border: 0.1px rgb(34, 28, 28) double;
   display: flex;
   background-color: black;
-  
+
 }
 
-.RedditHeader > img.logo {
+.RedditHeader > img.Logo {
 
-  width: 75px;
-  height: 75px;
+  width: 55px;
+  height: 55px;
   margin: 20px;
 
 } 
 
-.RedditHeader > a.home{
+.RedditHeader > a.Home{
 
   color: white;
   background-color: black;
   text-align: center;
   height: 20%;
-  margin-top: 60px;
+  margin-top: 30px;
   font-size: 30px;
   font-family: 'Courier New', Courier, monospace;
   opacity: 0.5;
+
+}
+
+.RedditHeader > input.SearchBar{
+
+  background-color: rgb(56, 8, 8);
+  opacity: 0.75;
+  color: white;
+  margin-top: 20px;
+  height: 50%;
+  width: 700px;
+  border: none;
+  margin-left: 50px;
+  border-radius: 25px;
 
 }
