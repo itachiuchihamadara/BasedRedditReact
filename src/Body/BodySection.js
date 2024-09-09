@@ -1,8 +1,8 @@
 
 import './BodySection.css'
 
-import FeedsSection from './FeedsSection';
-import PostSection from './PostSections';
+import FeedsSection from './Feeds/FeedsSection';
+import PostSection from './Post/PostSections';
 
 function BodySection() {
     return (

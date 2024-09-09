@@ -1,0 +1,18 @@
+.FeedsSection{
+    height: 100%;
+    border: 0.1px rgb(34, 28, 28) double;
+    width: 20%;
+}
+
+.FeedsSection > p {
+  
+  color: rgb(243, 4, 4);
+  background-color: black;
+  text-align: center;
+  height: 20%;
+  margin-top: 60px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  opacity: 0.9;
+
+}
