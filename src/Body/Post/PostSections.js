@@ -6,6 +6,23 @@ function PostSection() {
     return (
       <div className="PostSection" >
         <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
+        <PostEnumeration></PostEnumeration>
       </div>
     );
   }

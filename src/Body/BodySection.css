@@ -1,6 +1,31 @@
 .BodySection {
+    margin-top: 10px;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.flex-column{
+    position: fixed;
+    margin-top: 120px;
+    margin-left: 10px;
+}
+  
+.flex-column > .flex-item{
+
+    text-align: left;
+    margin-bottom: 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    max-height: 100vh;
+
+}
+
+.flex-item > .flex-link{
+
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: bold;
+    font-size: 20px;
 }

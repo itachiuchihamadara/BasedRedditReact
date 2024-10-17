@@ -1,15 +1,17 @@
 .PostSection {
-    background-color:rgb(38, 2, 2);
+    background-color:black;
+    border: 0.1px rgb(34, 28, 28) double;
     width: 100%;
-    overflow: scroll;
-    height: 100vh;
+    margin-top: 120px;
+    z-index:0;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
 .PostSection > .Post{
 
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
     margin-bottom: 30px;
 }
 

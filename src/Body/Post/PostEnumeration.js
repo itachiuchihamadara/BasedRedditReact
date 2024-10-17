@@ -7,9 +7,11 @@ import './PostEnumeration.css'
 
 function PostEnumeration() {
 
-  const cont = "<img src = 'http://localhost:8080/getImage'></img>"
 
-  return (<div dangerouslySetInnerHTML={{__html : cont}}/>);
+  return (<div className='Post'>
+    <PostHeader></PostHeader>
+    <PostBody></PostBody>
+  </div>);
   
   }
   

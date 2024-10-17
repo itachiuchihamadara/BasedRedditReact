@@ -2,11 +2,29 @@
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     height: 10%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .PostHeader > p{
     float: left;
     color: white;
     margin-left: 5px;
+}
+
+.user-name{
+    color: white;
+    font-size: 20px;
 
 }
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+  }

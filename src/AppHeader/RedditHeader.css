@@ -1,6 +1,9 @@
 .RedditHeader {
 
+  position: fixed;
   height: 15%;
+  width: 100%;
+  z-index:1;
   border: 0.1px rgb(34, 28, 28) double;
   display: flex;
   background-color: black;
@@ -24,6 +27,7 @@
   margin-top: 30px;
   font-size: 30px;
   font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
   opacity: 0.5;
 
 }
@@ -34,7 +38,7 @@
   opacity: 0.75;
   color: white;
   margin-top: 20px;
-  height: 50%;
+  height: 50px;
   width: 700px;
   border: none;
   margin-left: 50px;

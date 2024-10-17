@@ -1,10 +1,16 @@
 
 import './PostHeader.css'
 
-function PostHeader() {
-    return (
+function PostHeader(props) {
+
+  let userName = "u/mughal_emperor"
+
+
+  
+  return (
       <div className="PostHeader" >
-        <p className='PostHeaderContent' > US Navy is desperate to close the gap with China. Can Japan or Korea save US shipyards? </p>
+         <span class="dot"></span>
+        <header className='user-name'>{userName}</header>
       </div>
     );
   }
