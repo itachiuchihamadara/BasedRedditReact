@@ -9,7 +9,7 @@ function RedditHeader() {
       <div className="RedditHeader" >
        <img src = {logo} className='Logo'></img>
        <a className="Home">{appName}</a>
-       <input className = "SearchBar" type="text" placeholder="      Search Based Reddit"></input>
+       <input className = "SearchBar" type="text" placeholder="      Search Revolutions"></input>
       </div>
     );
   }

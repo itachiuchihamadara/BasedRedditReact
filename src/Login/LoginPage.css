@@ -1,0 +1,66 @@
+.user-login-root{
+
+  background-color: black;
+  min-height: 100vh;
+  padding: 10vh;
+  background-color: rgb(109, 8, 8);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-form{
+
+  max-width: fit-content;
+  max-height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 0.1px solid black;
+  padding: 50px;
+  box-shadow : 2px 2px 5px black;
+
+  height: 80%;
+}
+
+.header-form > .header{
+
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+
+
+.header-form > .login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+  }
+  
+  .header-form > .login-form > input{
+    margin-bottom: 30px;
+    width: 300px;
+  }
+
+  .header-form > .login-form > button{
+    width: 300px;
+    margin-bottom: 30px;
+  }
+
+
+  .page-name{
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
+
+  .page-bio{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
+
+

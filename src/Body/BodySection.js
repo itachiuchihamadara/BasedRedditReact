@@ -1,6 +1,7 @@
 
 import './BodySection.css'
 import PostSections from './Post/PostSections'
+import ProfileSection from './Profile/ProfileSection';
 
 import TabContainer from 'react-bootstrap/TabContainer'
 import Col from 'react-bootstrap/Col';
@@ -47,7 +48,9 @@ function BodySection() {
               <Tab.Pane eventKey="first">
                 <PostSections/>
               </Tab.Pane>
-              <Tab.Pane eventKey="second">Second tab content</Tab.Pane>
+              <Tab.Pane eventKey="fifth">
+                <ProfileSection/>
+              </Tab.Pane>
             </Tab.Content>
           </Col>
         </Row>

@@ -1,28 +1,13 @@
 
 import PostEnumeration from './PostEnumeration';
-import './PostSection.css'
+import './PostSection.css';
+function PostSection(props) {
 
-function PostSection() {
-    return (
+  console.log(props)
+
+  return (
       <div className="PostSection" >
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
-        <PostEnumeration></PostEnumeration>
+       <PostEnumeration/>
       </div>
     );
   }
