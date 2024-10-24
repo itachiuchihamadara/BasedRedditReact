@@ -31,8 +31,8 @@ function UserLogin(){
                         onChange = {(event)=> handleId(event)}/>
                         <input type="password"  placeholder = "Password" class="form-control"
                         onChange = {(event)=> handlePassword(event)} />
-                        <Button type="button" onClick= {()=> formHandle()} class="btn btn-secondary">Login</Button>
-                        <Button type="button" onClick= {()=> formHandle()} class="btn btn-success">Register</Button>
+                        <Button type="button" onClick= {()=> formHandle()} className="btn btn-secondary">Login</Button>
+                        <Button type="button" onClick= {()=> formHandle()} className="btn btn-success">Register</Button>
                     </form>
                 </div>
                 <div>

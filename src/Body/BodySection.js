@@ -8,11 +8,14 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
 import Tab from 'react-bootstrap/Tab';
+import Navbar  from 'react-bootstrap/Navbar';
+
 import { RiHome2Line } from "react-icons/ri";
 import { RiNotification2Line } from "react-icons/ri";
 import { AiFillMessage } from "react-icons/ai";
 import { GoPerson } from "react-icons/go";
 import { PiBookmarkSimple } from "react-icons/pi";
+import {Button} from 'react-bootstrap';
 
 function BodySection() {
     return (
@@ -41,6 +44,9 @@ function BodySection() {
                   <GoPerson size={30}color="white"/>
                   <Nav.Link eventKey="fifth" className= 'flex-link'>Profile</Nav.Link>
                 </Nav.Item>
+                <Navbar  fixed = "bottom" className="flex-post-button">
+                  <Button variant='dark' >Compose Post</Button>
+                </Navbar>
             </Nav>
           </Col>
           <Col sm={6}>

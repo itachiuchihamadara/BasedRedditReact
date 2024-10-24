@@ -3,7 +3,7 @@ import './RedditHeader.css'
 
 function RedditHeader() {
 
-    const appName = "revolutionary left";
+    const appName = "phylogeny";
 
     return (
       <div className="RedditHeader" >

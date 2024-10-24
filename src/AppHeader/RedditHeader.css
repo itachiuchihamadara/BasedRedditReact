@@ -1,12 +1,13 @@
 .RedditHeader {
 
   position: fixed;
-  height: 15%;
   width: 100%;
   z-index:1;
   border: 0.1px rgb(34, 28, 28) double;
   display: flex;
   background-color: black;
+  background-color: rgb(25, 3, 52);
+  overflow: hidden;
 
 }
 
@@ -21,7 +22,7 @@
 .RedditHeader > a.Home{
 
   color: white;
-  background-color: black;
+  background-color: rgb(25, 3, 52);
   text-align: center;
   height: 20%;
   margin-top: 30px;
